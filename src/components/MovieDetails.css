@@ -1,0 +1,229 @@
+.rmdb-navigation {
+
+    width: 100%;
+    height: 50px;
+    background: #353535;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.rmdb-navigation-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.rmdb-navigation-content a {
+    display: flex;
+
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 90vh;
+    width: 90vw;
+    /* border: 2px solid black; */
+    background-color: rgb(97, 97, 97);
+    border-radius: 13px;
+    display: flex;
+    color: white;
+}
+
+.img-container {
+    height: 90vh;
+    width: 40vw;
+    /* border: 2px solid rgb(22, 218, 22); */
+    border-radius: 15px;
+    /* background-color: rgb(255, 89, 0); */
+}
+
+.img-container img {
+    height: 90vh;
+    width: 40vw;
+    object-fit: cover;
+    background-size: contain;
+    border-radius: 15px;
+    /* border: 2px solid rgb(22, 218, 22); */
+    /* background-color: rgb(255, 89, 0); */
+}
+
+.content-container {
+    height: 90vh;
+    width: 60vw;
+    /* border: 2px solid rgb(231, 33, 33); */
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+.movie-title h2{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.content-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.content-container h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    margin-top: .5rem;
+}
+
+.content-container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.content-container p {
+    font-family: 'Abel', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+
+.rmdb-rating {
+    display: flex;
+    gap: 9px;
+    width: 250px;
+    height: 20px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+meter {
+    appearance: auto;
+    block-size: 2em;
+    box-sizing: border-box;
+    display: inline-block;
+    inline-size: 8em;
+    vertical-align: -0.2em;
+
+    overflow: hidden;
+    border-radius: 55%;
+    /* border: 2px solid black; */
+    height: 27px;
+    padding: 0px;
+}
+
+.rmdb-movieinfo-text p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.budget-section {
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.budget-section h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.Actor-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+
+.Actor-section-cover {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.Actor-section h1 {
+    /* border: 2px solid red; */
+    font-family: 'Abel', sans-serif;
+    font-size: xx-large;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.Actor-section-cover-card-main-container{
+    display: flex;
+    /* gap: .5rem; */
+    flex-wrap: wrap;
+
+}
+
+.Actor-card-cover {
+    height: 25vh;
+    width: 20vw;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    margin: 34px;
+
+}
+
+.Actor-card-img {
+    height: 25vh;
+    width: 8vw;
+    /* border: 2px solid red; */
+}
+
+.Actor-card-img img {
+    height: 25vh;
+    width: 8vw;
+    /* border: 2px solid red; */
+    object-fit: cover;
+}
+
+.Actor-card-content {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Actor-card-content h4 {
+    font-size: large;
+    font-weight: 600;
+
+}

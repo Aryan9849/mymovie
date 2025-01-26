@@ -1,0 +1,134 @@
+body{
+    background-color: whitesmoke;
+   margin: 0;
+   padding: 0 ;
+    }
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0px;
+    justify-content: flex-start;
+    gap: 50px;
+}  
+  .m_item {
+    width: 340px;
+    text-align: left;
+    /* margin: 0;
+    padding: 0; */
+    color: #1f1f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+  }
+  
+  .m_item img {
+    width: 100%;
+    border-radius: 0px;
+    width: fit-content;
+    /* padding: 8px; */
+    
+  }
+  
+  .m_text {
+    height: 20vh;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    font-size: 16px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    
+  }  
+
+.m_item span{
+    font-size:16px ;
+    color: red;
+} 
+  .button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    text-align: center;
+    
+  }
+
+  .button button {
+    background-color: #0056b3; 
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px 16px;
+    margin: 16px;
+  }
+  .button button:hover{
+    background-color: gray;
+  }
+  .search_bar{
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: #1c1c1c;
+  }
+
+  .search_bar input{
+    background-color: #353535;
+    height: 50px;
+    padding: 2px 16px;
+   justify-content: center;
+   align-items: center;
+    width: 80%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 32px ;
+  }
+  .search_bar ::placeholder{
+     color: #7f7474;
+  }
+  .search_bar :hover{
+    curso:hover
+  }
+  .title{
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin: 16px 0px;
+    font-weight: bold;
+  }
+
+.slider_image{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.65));
+    background-position: center top;
+    height: 600px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image:  url("http://image.tmdb.org/t/p/w1280//rDa3SfEijeRNCWtHQZCwfbGxYvR.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+      
+}
+.rmdb-heroimage-text{
+padding: 32px;
+position: absolute;
+left: 0px;
+bottom:70px;
+}
+
+.slider_image h1{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 100px ;
+   
+
+}
+.slider_image p{
+    color: white;
+    font-size: 22px;
+    font-family: mo;
+    padding: 16px 100px; 
+    line-height: 26px ;
+}
